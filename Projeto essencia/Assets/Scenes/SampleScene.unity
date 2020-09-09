@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234823737}
   - component: {fileID: 234823738}
+  - component: {fileID: 234823739}
   m_Layer: 0
   m_Name: Escudo
   m_TagString: Untagged
@@ -202,6 +203,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &234823739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234823736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f128d84430b6614791371c4338f20bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1561256346}
+  fRadius: 2
 --- !u!1 &881859419
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +228,7 @@ GameObject:
   - component: {fileID: 881859422}
   - component: {fileID: 881859421}
   - component: {fileID: 881859420}
+  - component: {fileID: 881859423}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -285,6 +301,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881859423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881859419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7112660a09ad9d642a41ae9b4e423593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alvo: {fileID: 1561256346}
+  moveSpeed: 4
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1203564890
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,8 +565,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1561256346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5027c911b29b5d0469eb85cfc9a6a230, type: 3}
+  m_Script: {fileID: 11500000, guid: 59aa0e73da72c404caa0647e9b895bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  JumpForce: 5
+  speed: 5
+  JumpForce: 2.5
