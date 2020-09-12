@@ -615,6 +615,36 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Path.Editor">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Runtime">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>/Users/tavaresgo/Documents/Faculdade/Projeto Final/Unity/Projeto essencia/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
